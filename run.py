@@ -57,10 +57,10 @@ def shelly_istri_tercinta():
 	model_anime = random.choice(['LMY47X','LRX22G','R16NW','MMB29T','PPR1.180610.011','MMB29M','NRD90M','O11019'])
 	__wibu = random.randrange(1000000, 9999999)
 	__akut = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	vivo = random.choice(["V2022","V2023","V2028","V2024","V2025","V2026","V2029","V2030","V2031"])
 	dev = f'{__wibu}{__akut}{__akut}'
-	ua = f"Davik/2.1.0 (Linux; U; Android {versi_wibu_sama_anime}; {dev} Build/{model_anime}) [FBAN/MessengerLite;FBAV/{str(rr(40,375))}.319.0.0.2.146;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/332275123;FBCR/XL Axiata;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/{dev};FBSV/{str(rr(9,13))};FBCA/armeabi-v7a:armeabi;FBDM/"+"{density=2.25,height=2048,width=2048};]"
+	ua = f"Davik/2.1.0 (Linux; U; Android {versi_wibu_sama_anime}; {vivo} Build/{model_anime}) [FBAN/MessengerLite;FBAV/{str(rr(40,375))}.319.0.0.2.146;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/332275123;FBCR/XL Axiata;FBMF/vivo;FBBD/vivo;FBDV/{vivo};FBSV/{str(rr(9,13))};FBCA/armeabi-v7a:armeabi;FBDM/"+"{density=2.25,height=2048,width=2048};]"
 	return ua
-
 class Logo:
 	
 	###----------[ BERSIHKAN LAYAR ]---------- ###
